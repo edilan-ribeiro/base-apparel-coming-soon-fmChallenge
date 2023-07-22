@@ -21,21 +21,24 @@
         <div class="info-section">
           <h2><span>We're</span> <br>coming soon</h2>
           <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-        </div>
-
-        <div class="email-input">
-          <input type="email" name="emailField" id="emailField" class="emailField" placeholder="Email Address" />
-
-          <img class="error-icon" id="error-icon" src="src/images/icon-error.svg" alt="email error icon">
           
-          <button type="submit" class="btn-submit">
+        </div>
+        
+        <form action="" method="get" name="get-email" class="email-input">      
+        
+          <input type="email" name="get-email" id="emailField" class="emailField email-working" placeholder="Email Address" />
+
+          <button type="submit" name="get-email" id="btn-submit" class="btn-submit" >
             <img src="src/images/icon-arrow.svg" alt="submit email icon">
           </button>
-          <p class="error-alert">
+
+          <img class="error-icon hide" id="error-icon" src="src/images/icon-error.svg" alt="email error icon">
+          <p class="error-alert hide" id="error-alert">
             Please provide a valid email
           </p>
 
-        </div>
+          <p  class="thanks hide" id="thanks">THANK YOU! <BR> PLEASE CHECK YOUR INBOX </p>
+        </form>
 
       </div>
 
