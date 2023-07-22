@@ -7,28 +7,33 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/active-states.css">
+
   </head>
   <body>
     <main class="page-wrap">
       <div class="coming-soon">
-        <a href="#">
+        <a href="#" class="top-logo">
           <img src="src/images/logo.svg" alt="Base Apparel logo" />
         </a>
         
         
         <div class="info-section">
-          <h2><span>We're</span>coming soon</h2>
+          <h2><span>We're</span> <br>coming soon</h2>
           <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
         </div>
 
         <div class="email-input">
-          <input type="email" name="emailField" id="emailField" placeholder="Email Address" />
+          <input type="email" name="emailField" id="emailField" class="emailField" placeholder="Email Address" />
 
-          <img src="src/images/icon-error.svg" alt="email error icon">
+          <img class="error-icon" id="error-icon" src="src/images/icon-error.svg" alt="email error icon">
           
-          <button type="submit">
+          <button type="submit" class="btn-submit">
             <img src="src/images/icon-arrow.svg" alt="submit email icon">
           </button>
+          <p class="error-alert">
+            Please provide a valid email
+          </p>
 
         </div>
 
