@@ -1,0 +1,64 @@
+.page-wrap .coming-soon .email-input .btn-submit:hover {
+  box-shadow: 5px 5px 20px hsla(0, 26%, 85%, 0.581);
+  background-image: linear-gradient(
+    135deg,
+    hsl(359deg 81% 76%) 0%,
+    hsl(359deg 80% 77%) 10%,
+    hsl(359deg 79% 78%) 20%,
+    hsl(359deg 78% 80%) 30%,
+    hsl(0deg 67% 81%) 40%,
+    hsl(0deg 66% 83%) 50%,
+    hsl(0deg 65% 84%) 60%,
+    hsl(0deg 64% 86%) 70%,
+    hsl(0deg 62% 88%) 80%,
+    hsl(0deg 60% 89%) 90%,
+    hsl(0deg 57% 91%) 100%
+  );
+  transition: 0.3s ease-in-out;
+  background-image: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.page-wrap .coming-soon .email-input .error-icon {
+  position: absolute;
+  right: 24%;
+  top: 15%;
+}
+
+.page-wrap .coming-soon .error-alert {
+  margin-top: 10px;
+  font-size: 1.4rem;
+  color: hsl(0, 78%, 57%);
+  position: relative;
+  left: 20px;
+}
+
+.page-wrap .coming-soon .email-input .thanks {
+  color: hsl(0, 36%, 70%);
+  position: absolute;
+  top: 17px;
+  right: 20%;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+}
+
+.email-working {
+  border: 1px solid hsla(0, 36%, 70%, 0.5);
+  border-right: none;
+}
+
+.email-error {
+  border: 1px solid hsl(0, 93%, 68%);
+  border-right: none;
+}
+
+.hide {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  pointer-events: none;
+}
+
+.show {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
