@@ -12,22 +12,30 @@ body {
 
 .page-wrap {
   display: flex;
-  width: 1440px;
-  height: 800px;
+  max-width: 1440px;
+  max-height: 800px;
+}
+
+.page-wrap .img-wrap img {
+  width: 100%;
 }
 
 .page-wrap .coming-soon {
   display: flex;
   flex-direction: column;
-  width: 830px;
-  padding: 60px 190px 162px;
+  max-width: 60%;
+  padding: 6% 13.5%;
   background-image: url(../images/bg-pattern-desktop.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.mobile-img {
+  display: none;
+}
+
 .page-wrap .coming-soon .info-section {
-  margin: 135px 0 50px;
+  margin: 20% 0 11%;
 }
 
 .page-wrap .coming-soon .info-section h2 {
@@ -35,9 +43,9 @@ body {
   font-size: 5rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 4%;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 6rem;
 }
 
 .page-wrap .coming-soon .info-section h2 span {
@@ -54,7 +62,7 @@ body {
 }
 
 .page-wrap .coming-soon .email-input .emailField {
-  padding: 15px 220px 15px 20px;
+  padding: 3% 42% 3% 4%;
   border-radius: 30px 0 0 30px;
 }
 
@@ -65,9 +73,9 @@ body {
 
 .page-wrap .coming-soon .email-input .btn-submit {
   position: absolute;
-  top: -1px;
-  right: 1%;
-  padding: 14px 40px;
+  top: -3px;
+  right: 7%;
+  padding: 3% 40px;
   border: none;
   border-radius: 30px;
   box-shadow: 0 10px 20px hsla(0, 24%, 57%, 0.402);

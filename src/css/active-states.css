@@ -1,5 +1,5 @@
 .page-wrap .coming-soon .email-input .emailField:focus {
-    outline: none;
+  outline: none;
 }
 
 .page-wrap .coming-soon .email-input .btn-submit:hover {
@@ -25,23 +25,23 @@
 
 .page-wrap .coming-soon .email-input .error-icon {
   position: absolute;
-  right: 24%;
+  right: 28%;
   top: 15%;
   transition: 0.3s ease-in-out;
 }
 
 .page-wrap .coming-soon .error-alert {
-  margin-top: 10px;
+  margin-top: 1%;
   font-size: 1.4rem;
   color: hsl(0, 78%, 57%);
   position: relative;
-  left: 20px;
+  left: 7%;
 }
 
 .page-wrap .coming-soon .email-input .thanks {
   color: hsl(0, 36%, 70%);
   position: absolute;
-  top: 17px;
+  top: 4%;
   right: 20%;
   transition: 0.5s ease-in-out;
   text-align: center;
