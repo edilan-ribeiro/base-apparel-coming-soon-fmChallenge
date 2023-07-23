@@ -1,0 +1,108 @@
+@media (max-width: 1350px) {
+  .page-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    height: 1200px;
+  }
+
+  .img-wrap {
+    display: none;
+  }
+
+  .page-wrap .coming-soon {
+    max-width: 600px;
+    order: 3;
+    padding: 0;
+    justify-content: center;
+    height: 1200px;
+   
+    background: linear-gradient(
+        180deg,
+        hsl(0deg 0% 100%) 0%,
+        hsl(0deg 0% 100%) 20%,
+        hsl(0deg 0% 100%) 40%,
+        hsl(0deg 20% 98%) 60%,
+        hsl(0deg 30% 95%) 80%,
+        hsl(0deg 60% 97%) 100%
+      );
+  }
+
+  .page-wrap .coming-soon .info-section h2 {
+    margin-bottom: 2%;
+    font-weight: 700;
+    }
+
+  .page-wrap .coming-soon .top-logo {
+    padding: 30px;
+  }
+
+  .page-wrap .coming-soon .info-section {
+    padding: 50px 50px 10px;
+    margin: 10px;
+    text-align: center; 
+  }
+
+
+  
+  .page-wrap .coming-soon .info-section p {
+    max-width: 350px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .page-wrap .coming-soon .mobile-img {
+    display: flex;
+    
+  }
+
+  .page-wrap .coming-soon .email-input {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  .page-wrap .coming-soon .email-input .emailField {
+    padding: 15px 50px 15px 15px;
+    border-radius: 30px 0 0 30px;
+  }
+
+  .page-wrap .coming-soon .email-input .btn-submit {
+    top: 1%;
+    right: 25%;
+    padding: 2% 4%;
+  }
+
+  .page-wrap .coming-soon .email-input .error-icon {
+    position: absolute;
+    right: 38%;
+    top: 23%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .page-wrap .coming-soon .error-alert {
+    top: 95%;
+    text-align: center;
+    position: absolute;
+    right: 13%;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .page-wrap .coming-soon .email-input .btn-submit {
+    top: -1px;
+    right: 23%;
+    padding: 2.4% 4.5%;
+  }
+}
+
+@media (max-width: 510px) {
+    .page-wrap .coming-soon .email-input .btn-submit {
+      top: 0;
+      right: 20%;
+      padding: 2.6% 4.7%;
+    }
+  }

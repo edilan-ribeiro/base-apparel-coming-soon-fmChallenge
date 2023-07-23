@@ -7,8 +7,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="stylesheet" href="./src/css/active-states.css">
-
+    <link rel="stylesheet" href="./src/css/active-states.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
   </head>
   <body>
     <main class="page-wrap">
@@ -16,42 +16,36 @@
         <a href="#" class="top-logo">
           <img src="src/images/logo.svg" alt="Base Apparel logo" />
         </a>
-        
-        
-        <div class="info-section">
-          <h2><span>We're</span> <br>coming soon</h2>
-          <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-          
-        </div>
-        
-        <form action="" method="get" name="get-email" class="email-input" id="getMailForm">      
-        
-          <input type="email" name="get-email" id="emailField" class="emailField email-working" placeholder="Email Address"/>
 
-          <button type="submit" name="get-email" id="btn-submit" class="btn-submit" >
-            <img src="src/images/icon-arrow.svg" alt="submit email icon">
+        <img src="./src/images/hero-mobile.jpg" alt="mobile lady from the company" class="mobile-img" />
+
+        <div class="info-section">
+          <h2><span>We're</span> <br />coming soon</h2>
+          <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+
+        <form action="" method="get" name="get-email" class="email-input" id="getMailForm">
+          <input type="email" name="get-email" id="emailField" class="emailField email-working" placeholder="Email Address" />
+
+          <button type="submit" name="get-email" id="btn-submit" class="btn-submit">
+            <img src="src/images/icon-arrow.svg" alt="submit email icon" />
           </button>
 
-          <img class="error-icon hide" id="error-icon" src="src/images/icon-error.svg" alt="email error icon">
-          <p class="error-alert hide" id="error-alert">
-            Please provide a valid email
+          <img class="error-icon hide" id="error-icon" src="src/images/icon-error.svg" alt="email error icon" />
+          <p class="error-alert hide" id="error-alert">Please provide a valid email</p>
+
+          <p class="thanks hide" id="thanks-item">
+            THANK YOU! <br />
+            PLEASE CHECK YOUR INBOX
           </p>
-
-          <p class="thanks hide" id="thanks-item">THANK YOU! <BR> PLEASE CHECK YOUR INBOX </p>
         </form>
-
       </div>
 
       <picture class="img-wrap">
-        <source media="(max-width:700px)" srcset="./src/images/hero-mobile.jpg" type="image/jpg" />
-
         <img src="./src/images/hero-desktop.jpg" alt="lady from the company" />
       </picture>
-
     </main>
 
-
     <script src="./src/js/form.js"></script>
-
   </body>
 </html>
