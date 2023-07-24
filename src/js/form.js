@@ -39,16 +39,3 @@ buttonSubmit.addEventListener('click', function(formSend){
 
 
 })
-
-
-
-
-
-
-
-
-
-
-
-
-// console.log(thanksItem)
