@@ -1,3 +1,11 @@
+@media (max-width: 1650px) {
+  .page-wrap .coming-soon .email-input .error-icon {
+    position: relative;
+    margin-left: -28%;
+  }
+
+}
+
 @media (max-width: 1350px) {
   .page-wrap {
     display: flex;
@@ -59,13 +67,12 @@
 
   .page-wrap .coming-soon .email-input .btn-submit {
     top: 1%;
-    right: 25%;
     padding: 2% 4%;
   }
 
   .page-wrap .coming-soon .email-input .error-icon {
     position: absolute;
-    right: 38%;
+    right: 40%;
     top: 23%;
     transition: 0.3s ease-in-out;
   }
@@ -80,8 +87,6 @@
 
 @media (max-width: 620px) {
   .page-wrap .coming-soon .email-input .btn-submit {
-    top: -1px;
-    right: 23%;
     padding: 2.4% 4.5%;
   }
 }
@@ -89,7 +94,11 @@
 @media (max-width: 510px) {
   .page-wrap .coming-soon .email-input .btn-submit {
     top: 0;
-    right: 20%;
+    right: -3px;
     padding: 2.6% 4.7%;
+  }
+
+  .page-wrap .coming-soon .email-input .error-icon {
+       right: 35%;
   }
 }

@@ -24,9 +24,9 @@
 }
 
 .page-wrap .coming-soon .email-input .error-icon {
-  position: absolute;
-  right: 28%;
-  top: 15%;
+  position: relative;
+  margin-left: -22%;
+  top: 11%;
   transition: 0.3s ease-in-out;
 }
 
