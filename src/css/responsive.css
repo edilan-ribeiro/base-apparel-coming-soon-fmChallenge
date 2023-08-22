@@ -3,7 +3,6 @@
     position: relative;
     margin-left: -28%;
   }
-
 }
 
 @media (max-width: 1350px) {
@@ -13,6 +12,7 @@
     align-items: center;
     padding: 0;
     height: 1200px;
+    width: 100%;
   }
 
   .img-wrap {
@@ -89,9 +89,26 @@
   .page-wrap .coming-soon .email-input .btn-submit {
     padding: 2.4% 4.5%;
   }
+
+  .page-wrap .coming-soon .info-section {
+    padding: 50px 35px 10px;
+  }
+
+  .page-wrap .coming-soon .email-input .thanks {
+    right: 50%;
+    transform: translateX(50%);
+  }
 }
 
 @media (max-width: 510px) {
+  .page-wrap .coming-soon {
+    max-width: 100%;
+  }
+
+  .page-wrap .coming-soon .info-section {
+    padding: 50px 15px 10px;
+  }
+
   .page-wrap .coming-soon .email-input .btn-submit {
     top: 0;
     right: -3px;
@@ -99,6 +116,6 @@
   }
 
   .page-wrap .coming-soon .email-input .error-icon {
-       right: 35%;
+    right: 35%;
   }
 }

@@ -18,7 +18,7 @@ body {
 
 .page-wrap .img-wrap {
   width: 40%;
-  height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
 }
 
