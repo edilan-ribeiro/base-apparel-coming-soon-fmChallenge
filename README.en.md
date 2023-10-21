@@ -17,10 +17,10 @@
     <img src="./src/images/readme/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Random Advice Generator</h3>
+<h3 align="center">Base Apparel - coming soon</h3>
 
   <p align="center">
-    A component that generates random advice through an API
+     A landing page of a store launching soon
   </p>
   
   <a href="https://edilan-ribeiro.github.io/base-apparel-coming-soon-fmChallenge/">View Demo</a>
@@ -52,7 +52,7 @@
 <br>
 
 The creation of this page was carried out to practice and enhance my frontend skills. <br>
-A 'Coming Soon' page is an intriguing strategy that many companies adopt to generate anticipation and interest around a product, service, or project that will be launched in the future. It's like giving a glimpse of what's to come and leveraging people's curiosity to build an engaged audience right from the start.
+A 'Coming Soon' page is an intriguing strategy that many companies adopt to ate anticipation and interest around a product, service, or project that will be launched in the future. It's like giving a glimpse of what's to come and leveraging people's curiosity to build an engaged audience right from the start.
 
 <br>
 Active states:
